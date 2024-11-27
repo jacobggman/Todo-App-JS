@@ -10,6 +10,8 @@
 // are you sure prompt when delete task or board
 // borads page (can view, delete, edit name). On each board it will have the number of task and finished tasks 
 // ship it to the cloud (share the board to view or edit)
+// clear all date button
+// offline mode
 
 const TOGGLE_BUTTON_COMPETE_TEXT = "✔";
 const UNCOMPETE_CLASS = "todo-item";
