@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="source.js"></script>  
+    <link rel="stylesheet" href="styles.css">
+    <title>todo</title>
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-input">
+            <input type="text" placeholder="Enter a new task">
+            <button onclick="">Add Task</button>
+        </div>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <button class="toggle-btn"></button>
+                <input type="text" class="todo-text-input" value="Buy groceries">
+                <button class="delete-btn">Delete</button>
+            </li>
+            <li class="todo-item completed">
+                <button class="toggle-btn">✔</button>
+                <input type="text" class="todo-text-input" value="Finish work report">
+                <button class="delete-btn">Delete</button>
+            </li>
+            <li class="todo-item">
+                <button class="toggle-btn"></button>
+                <input type="text" class="todo-text-input" value="Call mom">
+                <button class="delete-btn" onclick="console.log('delete')">Delete</button>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
