@@ -1,12 +1,21 @@
+// possible things to do:
+// no empty task name
+// confetti when finish a task
+// can change order
+// optional due date to task (edit and when create)
+// show the time left to finish the task, if have due date
+// optional more info about the task (when create and edit)
+// better titie change like trello (to tasks names and board name). Only show outline when click, make text clickable.
+// mutiple tasks boards (go back button, and edit board name)
+// are you sure prompt when delete task or board
+// borads page (can view, delete, edit name). On each board it will have the number of task and finished tasks 
+// ship it to the cloud (share the board to view or edit)
+
 const TOGGLE_BUTTON_COMPETE_TEXT = "✔";
 const UNCOMPETE_CLASS = "todo-item";
 const COMPETE_CLASS = "todo-item completed";
 
 let tasks = {
-    // "36b8f84d-df4e-4d49-b662-bcde71a8764f": {
-    //     "name": "Call mon",
-    //     "compete": true,
-    // }
 };
 
 window.onload = function() {
