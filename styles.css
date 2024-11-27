@@ -45,7 +45,7 @@ button:hover
     padding: 10px;
     border-bottom: 1px solid #f0f0f0;
 }
-.todo-item.completed .todo-text {
+.todo-item.completed .todo-text-input {
     text-decoration: line-through;
     color: #888;
 }

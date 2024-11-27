@@ -10,11 +10,11 @@
 <body>
     <div class="todo-container">
         <div class="todo-input">
-            <input type="text" placeholder="Enter a new task">
-            <button onclick="">Add Task</button>
+            <input id="task-text-input" type="text" onchange="event => onkeydownTaskInput(event)" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
         </div>
-        <ul class="todo-list">
-            <li class="todo-item">
+        <ul id="todo-list" class="todo-list">
+            <!-- <li class="todo-item">
                 <button class="toggle-btn"></button>
                 <input type="text" class="todo-text-input" value="Buy groceries">
                 <button class="delete-btn">Delete</button>
@@ -28,7 +28,7 @@
                 <button class="toggle-btn"></button>
                 <input type="text" class="todo-text-input" value="Call mom">
                 <button class="delete-btn" onclick="console.log('delete')">Delete</button>
-            </li>
+            </li> -->
         </ul>
     </div>
 </body>
